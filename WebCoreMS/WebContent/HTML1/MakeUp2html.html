@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表格排版</title>
+</head>
+<body>
+	<h3>成绩单:</h3>
+	<table border="1" width="200">
+		<tr>
+			<td colspan="3">学生成绩</td>
+		</tr>
+		<tr>
+			<td rowspan="2">张三</td>
+			<td>语文</td>
+			<td>98</td>
+		</tr>
+		<tr>
+			<td>数学</td>
+			<td>95</td>
+		</tr>
+		<tr>
+			<td rowspan="2">李四</td>
+			<td>语文</td>
+			<td>88</td>
+		</tr>
+		<tr>
+			<td>数学</td>
+			<td>91</td>
+		</tr>
+	</table>
+	<br/>
+	<br/>
+<table width="50%">
+ <caption>年终数据报表</caption>
+  <thead style="background: #0FF">
+  <tr> <th>月份</th> <th>收入(RMB)</th> 
+  </thead>
+  <tbody style="background: #9CC">
+  <tr> <th>1月</th> <th>100</th> 
+  <tr> <th>2月</th> <th>80</th> 
+ <!--此处省去3~6月的情况  -->
+  </tbody>
+<tfoot style="background: #FF0">
+  <tr> <th>平均月收入</th> <th>90</th> 
+  <tr> <th>总计</th> <th>180</th> 
+</tfoot>
+</table>
+<br/>
+<table border="1px">
+<tr>
+<td colspan="2">公告栏</td>
+</tr>
+<td rowspan="4">公告右侧图 </td>
+<td>大学要求老师开网站</td>
+<tr>
+<td>安全锤网上大热销</td>
+</tr>
+<tr>
+<td>商城竟成网购试衣间</td>
+</tr>
+<tr>
+<td>2万网上开十间连锁店</td>
+</tr>
+</table>
+<br/>
+
+<table>
+<tr>
+<td colspan="2" border="1"> 图片 会员登录</td>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<td>会员名:</td>
+<td><input name="text" type="text" ><span>&nbsp;(可包含a~z,0~9和下划线)</span></td>
+</tr>
+<tr>
+<td>密码:</td>
+<td><input name="passwd" type="password" ><span>&nbsp;(至少包含6个字符)</span></td>
+</tr>
+<tr>
+<td colspan="2"><input name="denglu" type="submit" value="登录"></td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

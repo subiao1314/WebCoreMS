@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript"
+src="JQuerymini.js.js"></script>
+</head>
+<body>
+
+<!-- <p>谢谢<span>你</span></p>
+<script type="text/javascript">
+$('span').css('color','red');
+console.log($('p').css('color'));
+</script>
+ -->
+<!-- <p class="foo bar">JQuery</p>
+<script type="text/javascript">
+$('.foo bar').addClass('test');
+console.log($('p').css('Class'));
+</script> -->
+
+<p>世界</p>
+<script type="text/javascript">
+$('p').append("你好");
+$('p').prepend('我来自于');
+$('p').before('<span>大家好</span>');
+$('p').after('<span>我是苏标</span>');
+</script>
+
+<br/><hr/>
+<p><input type="text">
+<input type="button" value="Go"></p>
+<script type="text/javascript">
+var clone_p= $('p').clone();
+$('p').clone('clone_p');
+</script>
+
+
+
+
+
+
+</body>
+</html>

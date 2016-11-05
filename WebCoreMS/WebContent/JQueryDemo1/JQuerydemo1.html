@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script  src="JQuerymini.js.js"></script>
+
+</head>
+<body>
+
+<p><b>hello</b></p>
+<script type="text/javascript">
+  $('p').html('<i>world</i>');
+ console.log($('p').html());
+ $('p').text('nihao');
+ console.log($('p').text());
+ $('p').text('<u>nihao</u>');
+ console.log($('p').text()); 
+</script>
+ 
+ <p>谢谢<span>你</span></p>
+ <script type="text/javascript">
+ $('span').css('color','red');
+ </script>
+ 
+<br/><hr/>
+<form  id="my_form" action="too-php"></form>
+<script type="text/javascript">
+ console.log($('my_form').attr('action'));
+$('#my_form').attr('action','bar-php');
+console.log($('my_form').attr('action'));
+$('#my_form').removeAttr('action','bar-php');
+console.log($('my_form').attr('action')); 
+</script>
+
+<p>谢谢<span>你</span></p>
+<script type="text/javascript">
+$('span').css('color','red');
+</script>
+
+
+</body>
+</html>
